@@ -15,7 +15,7 @@ interface Props {
 export function ChatInput({loading, onSubmit, onCancel}: Props) {
     const {input, setInput} = useChatInputStore()
     return (
-        <div className="flex w-full items-center space-x-2 ">
+        <div className="flex w-full items-center space-x-2 pb-4">
             <Input type="email" placeholder="Ask the AI something" onChange={e => setInput(e.target.value)}/>
             {loading ?
                 <Button type="button" onClick={onCancel}>
