@@ -22,7 +22,7 @@ export function ChatInput({loading, onSubmit, onCancel}: Props) {
                     <CiStop1 size={25}/>
                 </Button>
 
-                : <Button type="submit" onClick={()=>onSubmit?.(input)}>
+                : <Button type="submit" onClick={() => onSubmit?.(input)}>
                     <FaArrowAltCircleUp size={25}/>
                 </Button>
             }
