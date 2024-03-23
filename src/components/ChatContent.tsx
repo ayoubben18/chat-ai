@@ -32,7 +32,7 @@ export const ChatContent = () => {
             result += text
             console.log(result)
             if (done) {
-                break
+                break;
             }
         }
     }
