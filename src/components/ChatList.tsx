@@ -29,7 +29,7 @@ export default async function ChatList() {
                     ))}
                 </div>
             </div>
-            <div className="text-md font-semibold text-center py-2">I love Houda ❤️</div>
+            <div className="text-md font-semibold text-center py-2">Your recent chats️</div>
         </div>
 
     );
